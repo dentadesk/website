@@ -167,3 +167,12 @@ html, body {
 	-webkit-animation: ani-mouse 2.5s linear infinite;
 	-moz-animation: ani-mouse 2.5s linear infinite;
 	animation: ani-mouse 2.5s linear infinite;
+}
+
+.pleft-10 {
+	padding-left: 10px;
+}
+
+.pright-10 {
+	padding-right: 10px;
+}
