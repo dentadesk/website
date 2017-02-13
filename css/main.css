@@ -2,7 +2,7 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Roboto';
+	font-family: 'Raleway', sans-serif;
 }
 #header {
 	background: url('../img/header.jpg');
@@ -23,9 +23,44 @@ html, body {
 }
 #header h1 {
 	color: #FFF;
-	font-family: Roboto;
 	font-weight: 300;
 }
+.btn-white {
+	border: 2px solid #FFF;
+	color: #FFF;
+	border-radius: 1.2em;
+	-moz-border-radius: 1.2em;
+	-webkit-border-radius: 1.2em;
+	-webkit-transition: background-color 0.5s, color 0.5s;
+	transition: background-color 0.5s, color 0.5s;
+	background-color: transparent;
+}
+.btn-white:hover {
+	background-color: #FFF;
+	color: #00a99d;
+}
+.btn-white:active {
+	background: #00a99d;
+	color: #FFF;
+}
+.btn-white > span {
+	margin-right: 0.3em;
+}
+
+#outro {
+	background: #00a99d;
+	color: #FFF;
+}
+
+#features img {
+	max-height: 100px;
+	margin: 0 auto 10px auto;
+}
+#features h4 {
+	color: #00a99d;
+	font-weight: bolder;
+}
+
 #body {
 	padding-top: 20px;
 	background: #3b3838;
@@ -37,6 +72,33 @@ html, body {
 #footer a {
 	float: right;
 }
+#intro {
+	background: #f2f2f2;
+}
+
+#macbook {
+	position: relative;
+}
+#macbook img {
+	width: 100%;
+}
+#macbook > div {
+	position: absolute;
+	top: 6.5%;
+	left: 14%;
+	right: 15.3%;
+	bottom: 15%;
+}
+
+#groups {
+
+}
+
+#groups h4 {
+	color: #00a99d;
+	text-shadow: 2px 2px #4d4d4d;
+}
+
 .signup {
 	padding-top: 20px;
 }
@@ -49,10 +111,35 @@ html, body {
 	background: transparent !important;
 }
 #mc_embed_signup input {
-	font-family: 'Roboto';
+
 }
 #mc_embed_signup .button {
 	background: #01aa9e;
+}
+
+.bg-light-red {
+	background-color: #fde4e4;
+}
+.bg-light-blue {
+	background-color: #e2e8f1;
+}
+.bg-light-brown {
+	background-color: #f5ebe2;
+}
+.bg-light-cyan {
+	background-color: #cceeeb;
+}
+.color-red {
+	color: #f77a7a;
+}
+.color-blue {
+	color: #728bbc;
+}
+.color-brown {
+	color: #c69b67;
+}
+.color-cyan {
+	color: #00a99d;
 }
 
 @-webkit-keyframes ani-mouse {
@@ -169,10 +256,41 @@ html, body {
 	animation: ani-mouse 2.5s linear infinite;
 }
 
+.b-c {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.a-c {
+	text-align: center;
+}
+
+.font-intro {
+	font-size: 1.5em;
+}
+
+.ptop-10 {
+	padding-top: 10px;
+}
+.pbottom-10 {
+	padding-bottom: 10px;
+}
 .pleft-10 {
 	padding-left: 10px;
 }
-
 .pright-10 {
 	padding-right: 10px;
+}
+
+.ptop-30 {
+	padding-top: 30px;
+}
+.pbottom-30 {
+	padding-bottom: 30px;
+}
+.pleft-30 {
+	padding-left: 30px;
+}
+.pright-30 {
+	padding-right: 30px;
 }
