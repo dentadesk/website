@@ -4,7 +4,7 @@ DentaDesk File Watcher
 Installation
 ------------
 
-Laden Sie die aktuelleste Version des DentaDesk File Watcher auf Ihren PC: [dentadesk-filewatcher-2.3.0.msi](https://www.dentadesk.com/downloads/dentadesk-filewatcher-2.3.0.msi)
+Laden Sie die aktuelleste Version des DentaDesk File Watcher auf Ihren PC: [dentadesk-filewatcher-2.4.0.msi](https://www.dentadesk.com/downloads/dentadesk-filewatcher-2.4.0.msi)
 
 Führen Sie den *.msi-Installer aus und installieren Sie das Programm in einen beliebigen Ordner.
 
